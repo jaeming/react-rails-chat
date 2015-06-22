@@ -1,20 +1,16 @@
 development:
   adapter: postgresql
-  encoding: utf8
+  encoding: unicode
   database: db_development
   host: localhost
   pool: 5
-  username:
-  password:
 
 test: &TEST
   adapter: postgresql
-  encoding: utf8
+  encoding: unicode
   database: db_test
   host: localhost
   pool: 5
-  username:
-  password:
 
 production:
   adapter: postgresql
