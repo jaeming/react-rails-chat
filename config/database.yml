@@ -14,6 +14,7 @@ test: &TEST
 
 production:
   adapter: postgresql
+  template: template0
   url: <%= ENV['DATABASE_URL'] %>
   encoding: unicode
   pool: 5
