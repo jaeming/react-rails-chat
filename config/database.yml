@@ -18,6 +18,7 @@ test: &TEST
 
 production:
   adapter: postgresql
+  url: <%= ENV['DATABASE_URL'] %>
   encoding: utf8
   database: db
   pool: 5
