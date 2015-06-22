@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 # React-Rails
 gem 'react-rails', github: 'reactjs/react-rails', branch: 'master'
 # Markdown parser
-gem 'showdown-rails'
+gem 'marked-rails'
 # BootStrap CSS
 gem 'bootstrap-sass'
 # CSS prefixing
