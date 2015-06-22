@@ -9,8 +9,7 @@ gem 'bootstrap-sass'
 # CSS prefixing
 gem 'autoprefixer-rails'
 # Heroku deployment
-gem 'sqlite3', group: :development
-gem 'pg', group: :production
+gem 'pg'
 gem 'rails_12factor'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
