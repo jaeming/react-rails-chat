@@ -4,6 +4,10 @@ source 'https://rubygems.org'
 gem 'react-rails', github: 'reactjs/react-rails', branch: 'master'
 # Markdown parser
 gem 'showdown-rails'
+# BootStrap CSS
+gem 'bootstrap-sass'
+# CSS prefixing
+gem 'autoprefixer-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
 # Use sqlite3 as the database for Active Record
